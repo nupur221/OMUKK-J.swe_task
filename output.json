@@ -1,0 +1,98 @@
+{
+  "total_requests": 174,
+  "unique_ip": 6,
+  "average_response_size": 1210,
+  "error_rate": 5.7,
+  "top_ips": [
+    {
+      "ip": "192.168.1.100",
+      "requests": 35
+    },
+    {
+      "ip": "172.16.0.15",
+      "requests": 35
+    },
+    {
+      "ip": "203.0.113.45",
+      "requests": 35
+    },
+    {
+      "ip": "198.51.100.78",
+      "requests": 34
+    },
+    {
+      "ip": "10.0.0.5",
+      "requests": 18
+    }
+  ],
+  "status_distribution": {
+    "2xx": {
+      "count": 164,
+      "rate": 94.3
+    },
+    "3xx": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "4xx": {
+      "count": 6,
+      "rate": 3.4
+    },
+    "5xx": {
+      "count": 4,
+      "rate": 2.3
+    }
+  },
+  "top_endpoints": [
+    {
+      "endpoint": "/api/users",
+      "count": 6
+    },
+    {
+      "endpoint": "/api/login",
+      "count": 3
+    },
+    {
+      "endpoint": "/dashboard",
+      "count": 3
+    },
+    {
+      "endpoint": "/api/orders",
+      "count": 2
+    },
+    {
+      "endpoint": "/api/events",
+      "count": 2
+    },
+    {
+      "endpoint": "/api/widgets",
+      "count": 2
+    },
+    {
+      "endpoint": "/api/plugins",
+      "count": 2
+    },
+    {
+      "endpoint": "/api/integrations",
+      "count": 2
+    },
+    {
+      "endpoint": "/api/webhooks",
+      "count": 2
+    },
+    {
+      "endpoint": "/api/products",
+      "count": 1
+    }
+  ],
+  "parse_errors": [
+    {
+      "line": 101,
+      "content": "BAD_LOG_LINE_MISSING_QUOTES"
+    },
+    {
+      "line": 109,
+      "content": "MALFORMED LINE WITHOUT PROPER FORMAT"
+    }
+  ]
+}
