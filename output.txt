@@ -1,6 +1,6 @@
 === Log Analysis Report ===
-File: logs-small.txt
-Analysis Period: 2026-07-06 20:57:56
+File: access.log
+Analysis Period: 2026-07-06 21:35:55
 
 SUMMARY:
 - Total Requests: 174

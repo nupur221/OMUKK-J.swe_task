@@ -289,7 +289,7 @@ class LogAnalyzer:
 class LogAnalyzerGUI:
     def __init__(self, root): 
         self.root = root
-        self.root.title("Log Analyzer - Internship Task for Omukk")
+        self.root.title("Log Analyzer - Omukk Junior SWE Task")
         self.root.geometry("950x750")
         self.root.configure(bg="#1e1e2e")
         
